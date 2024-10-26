@@ -34,7 +34,7 @@
 
 [Export data to Azure Synapse Analytics](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/export-azure-synapse-analytics)
 
-# Additional References:
+### Additional References:
 
 [Machine Learning capabilities in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/what-is-machine-learning)
 
