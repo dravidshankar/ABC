@@ -7,5 +7,9 @@
 ## Module 2: Building and Deploying a Containerized ML Model
 
 [Lab Manual](https://docs.google.com/document/d/1lL0_SHwhwz2IMjrBoQOqmArYNX8Mqf_l0S1oFIvrERg/edit?usp=sharing)
+
+
 [Create a Docker Image Files](https://github.com/dravidshankar/ABC/tree/main/Create%20a%20Docker%20Image)
+
+
 [Deployment Files](https://github.com/dravidshankar/ABC/tree/main/Deploy)
