@@ -1,0 +1,4 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: my-custom-docker-env
+image: ravi25oct.azurecr.io/my-ml-image:latest  # Replace with your ACR image
+

@@ -1,0 +1,15 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+command: >
+  python train.py --arg1 some_value
+environment: azureml:my-custom-docker-env:1  # Reference the environment you created
+compute: azureml:cluster25oct  # Specify your compute target
+inputs:
+  input_data:
+    type: uri_file
+    path: azureml://datastores/workspaceblobstore/paths/input-data/
+outputs:
+  output_data:
+    type: uri_file
+    path: azureml://datastores/workspaceblobstore/paths/output-data/
+resources:
+  instance_count: 1
